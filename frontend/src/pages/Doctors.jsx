@@ -21,7 +21,7 @@ export const Doctors = () => {
     }, [doctors, speciality]);
 
     return (
-        <div className="px-32 my-10">
+        <div className="md:mx-10 my-10">
             <p className="text-gray-600">Parcourez les médecins spécialistes</p>
             <div className="flex col sm:flex-row items-start gap-5 mt-5">
                 {/* Specialties Sidebar */}
@@ -36,7 +36,7 @@ export const Doctors = () => {
                 </div>
                 
                 {/* Doctors List */}
-                <div className="w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div className="w-[95%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
                     {filterDoc.map((item, index) => (
                         <div
                             onClick={() => navigate(`/appointment/${item._id}`)}
@@ -47,7 +47,7 @@ export const Doctors = () => {
                             <div className="p-4">
                                 <div className="flex items-center gap-2 text-sm text-center text-green-500">
                                     <p className="w-2 h-2 bg-green-500 rounded-full"></p>
-                                    <p>Available</p>
+                                    <p>Disponible</p>
                                 </div>
                                 <p className="text-gray-900 text-lg font-medium">{item.name}</p>
                                 <p className="text-gray-600 text-sm">{item.speciality}</p>

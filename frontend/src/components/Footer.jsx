@@ -34,10 +34,10 @@ const Footer = () => {
             </div>
 
         </div>
-        {/* ------------ Copi Right -----------*/}
+        {/* ------------ CopyRight -----------*/}
         <div>
-          <hr />
-          <p className="py-5 text-sm text-center">Cpoyright 2024@ Dawini - All Right Reserved</p>
+        <hr />
+          <p className="py-5 text-sm text-center">Copyright 2024@Dawini - Tous droits réservés</p>
         </div>
     </div>
   )

@@ -88,212 +88,212 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Fourat Toumi',
         image: doc1,
         speciality: 'Médecin généraliste',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Ans',
+        about: 'Le Dr Fourat est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Fourat est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Zarzis'
         }
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dr. Malek Haddar',
         image: doc2,
         speciality: 'Gynécologue',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '3 Ans',
+        about: 'Le Dr Malek est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Malek est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces..',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Tataouine'
         }
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'Dr. Malek Souayeh',
         image: doc3,
         speciality: 'Dermatologue',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '1 Ans',
+        about: 'Le Dr Malek est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Malek est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 30,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Sfax'
         }
     },
     {
         _id: 'doc4',
-        name: 'Dr. Christopher Lee',
+        name: 'Dr. Bechir Daoua',
         image: doc4,
         speciality: 'Pédiatres',
         degree: 'MBBS',
-        experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '2 Ans',
+        about: 'Le Dr Bechir est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Bechir est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 40,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Gbéli'
         }
     },
     {
         _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
+        name: 'Dr. Assil Barhoumi',
         image: doc5,
         speciality: 'Neurologue',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Ans',
+        about: 'Le Dr Assil est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Assil est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Gafsa'
         }
     },
     {
         _id: 'doc6',
-        name: 'Dr. Andrew Williams',
+        name: 'Dr. Houssaine Ben Dhieb',
         image: doc6,
         speciality: 'Neurologue',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Ans',
+        about: 'Le Dr Houssaine est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Houssaine est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Djerba'
         }
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Dr. Mohamed ali Maali',
         image: doc7,
         speciality: 'Médecin généraliste',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Ans',
+        about: 'Le Dr Mohamed ali est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Mohamed ali est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Gbéli'
         }
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Raed Zayoud',
         image: doc8,
         speciality: 'Gynécologue',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '3 Ans',
+        about: 'Le Dr Raed est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Raed est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Djerba'
         }
     },
     {
         _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
+        name: 'Dr. Hadil Hammemi',
         image: doc9,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '1 Ans',
+        about: 'Le Dr Hadil est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Hadil est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 30,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Séliana'
         }
     },
     {
         _id: 'doc10',
-        name: 'Dr. Jeffrey King',
+        name: 'Dr. Idriss Jdid',
         image: doc10,
         speciality: 'Pédiatres',
         degree: 'MBBS',
-        experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '2 Ans',
+        about: 'Le Dr Idriss est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Idriss est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 40,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Médnine'
         }
     },
     {
         _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
+        name: 'Dr. Khouloud Ghabi',
         image: doc11,
         speciality: 'Neurologue',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Ans',
+        about: 'Le Dr Khouloud est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Khouloud est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Kélibia'
         }
     },
     {
         _id: 'doc12',
-        name: 'Dr. Patrick Harris',
+        name: 'Dr. Rabie Houssaini',
         image: doc12,
         speciality: 'Neurologue',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Ans',
+        about: 'Le Dr Rabie est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Rabie est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Gbelli'
         }
     },
     {
         _id: 'doc13',
-        name: 'Dr. Chloe Evans',
+        name: 'Dr. Tayma Hrizi',
         image: doc13,
         speciality: 'Médecin généraliste',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Ans',
+        about: 'Le Dr Tayma est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Tayma est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Douz'
         }
     },
     {
         _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
+        name: 'Dr. Sabri Lamouchi',
         image: doc14,
         speciality: 'Gynécologue',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '3 Ans',
+        about: 'Le Dr Sabri est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Sabri est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Gabes'
         }
     },
     {
         _id: 'doc15',
-        name: 'Dr. Amelia Hill',
+        name: 'Dr. Nesrine Lagneb',
         image: doc15,
-        speciality: 'Dermatologist',
+        speciality: 'Dermatologue',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '1 Ans',
+        about: 'Le Dr Nesrine est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces. Le Dr Nesrine est fermement engagé à fournir des soins médicaux complets, en se concentrant sur la médecine préventive, le diagnostic précoce et les stratégies de traitement efficaces.',
         fees: 30,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'G38V+Q9,',
+            line2: 'Tataouine'
         }
     },
 ]
