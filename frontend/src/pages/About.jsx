@@ -16,7 +16,6 @@ export const About = () => {
           <p>Dawini s&apos;engage à exceller dans la technologie de santé. Nous travaillons constamment à améliorer notre plateforme, en intégrant les dernières avancées pour enrichir l&apos;expérience utilisateur et offrir un service de qualité supérieure. Que ce soit pour réserver votre premier rendez-vous ou gérer des soins continus, Dawini est là pour vous accompagner à chaque étape.</p>
           <b className="text-gray-800">Notre Vision</b>
           <p>Notre vision chez Dawini est de créer une expérience de santé fluide et accessible pour chaque utilisateur. Nous nous efforçons de rapprocher les patients et les professionnels de santé, afin que vous puissiez accéder aux soins dont vous avez besoin, au moment où vous en avez besoin.</p>
-
         </div>
         </div>
 
