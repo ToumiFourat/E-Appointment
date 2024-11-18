@@ -10,10 +10,10 @@ export const Navbar = () => {
     navigate("/login");
   };
   return (
-    <div className="flex items-center justify-between text-sm py-4 px-32 mb-5 border-b border-b-gray-400">
+    <div className="flex items-center justify-between text-sm py-4 px-6 sm:px-10 md:px-32 mb-5 border-b border-b-gray-400">
       <img
         onClick={() => navigate("/")}
-        className="w-44 cursor-pointer"
+        className="w-32 sm:w-44 cursor-pointer"
         src={assets.logo}
         alt=""
       />
@@ -39,9 +39,8 @@ export const Navbar = () => {
       <div className="flex items-center gap-4">
         {token ? (
           <div className="flex items-center gap-2 cursor-pointer group relative">
-            {" "}
             <img
-              className="w-8 rounded-full "
+              className="w-10 h-10 sm:w-8 sm:h-8 rounded-full object-cover"
               src={assets.profile_pic}
               alt=""
             />
@@ -77,6 +76,44 @@ export const Navbar = () => {
             Créer un compte
           </button>
         )}
+        <img
+          onClick={() => setShowMenu(true)}
+          className="w-6 md:hidden"
+          src={assets.menu_icon}
+          alt=""
+        />
+        {/* ------------ Menu de telephone ---------- */}
+        <div
+          className={`${
+            showMenu ? "fixed w-full" : "h-0 w-0"
+          } md:hidden right-0 top-0 buttom-0 a-20 overflow-hidden bg-white transition-all`}
+        >
+          <div className="flex items-center justify-between px-5 py-6">
+            <img className="w-36" src={assets.logo} alt="" />
+            <img
+              className="w-7"
+              onClick={() => setShowMenu(false)}
+              src={assets.cross_icon}
+              alt=""
+            />
+          </div>
+          <ul className="flex flex-col items-center gp-2 mt-5 px-5 text-lg font-medium">
+            <NavLink onClick={() => setShowMenu(false)} to="/">
+              <p className="px-4 py-2 rounded inline-block ">ACCUEIL</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/doctors">
+              <p className="px-4 py-2 rounded inline-block ">
+                TOUS LES MÉDECINS
+              </p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/about">
+              <p className="px-4 py-2 rounded inline-block ">À PROPOS</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/contact">
+              <p className="px-4 py-2 rounded inline-block ">CONTACT</p>
+            </NavLink>
+          </ul>
+        </div>
       </div>
     </div>
   );
