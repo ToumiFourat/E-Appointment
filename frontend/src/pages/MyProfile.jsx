@@ -18,7 +18,7 @@ export const MyProfile = () => {
   const [isEdit, setIsEdit] = useState(true);
 
   return (
-    <div className="max-w-lg flex flex-col gap-2 text-sm px-6">
+    <div className="px-4 sm:px-6 md:px-10">
       <img className="w-36 rounded" src={userData.image} alt="" />
 
       {isEdit ? (
