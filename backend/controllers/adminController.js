@@ -1,5 +1,6 @@
 import validator from "validator"
 import bcrypt from 'bcrypt'
+import { v2 as cloudinary} from "cloudinary"
 //api pour ajouter un medecin
 
 const addDoctor = async (req,res) =>{
@@ -22,8 +23,11 @@ const addDoctor = async (req,res) =>{
         if(password.length <8){
             return res.json({success:false,message:"Veuillez entrer un mot de passe fort"})
         }
+        //hacher le mot de passe du médecin
+        const salt = await bcrypt.genSalt(10)
+        const hashedPassword = await bcrypt.hash(password, salt)
 
-        //ha
+        //transferer image vers cloudinary 
 
     } catch (error) {
         
