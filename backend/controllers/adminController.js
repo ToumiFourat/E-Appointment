@@ -11,8 +11,13 @@ const addDoctor = async (req,res) =>{
         const {name,email,password,image,speciality,degree,experience,about,fees,address} = req.body
         const imageFile = req.file
 
+<<<<<<< HEAD
         // vérifier que tous les donnés sont completes pour ajouter médecin
         if ( !name|| !email|| !password|| !image|| !speciality|| !degree|| !experience|| !about|| !fees|| !address) {
+=======
+        // vérifier que tous les données sont completes pour ajouter médecin
+        if ( !name || !email || !password || !imageFile || !speciality || !degree || !experience || !about || !fees || !address) {
+>>>>>>> 663dfd5 (Guess who’s back?)
             return res.json({success:false,message:"Détails manquants"})
         }
 
@@ -46,7 +51,11 @@ const addDoctor = async (req,res) =>{
             address:JSON.parse(address),
             date:Date.now()
         }   
+<<<<<<< HEAD
         const newDoctor = new doctorModel(doctorModel)
+=======
+        const newDoctor = new doctorModel(doctorData)
+>>>>>>> 663dfd5 (Guess who’s back?)
         await newDoctor.save()
 
         res.json({success:true,message:"Médecin ajouté"})
