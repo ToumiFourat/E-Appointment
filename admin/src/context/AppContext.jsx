@@ -1,6 +1,5 @@
 
 import { createContext } from 'react';
-import { AppContext } from './../../../frontend/src/context/AppContext';
 import App from '../App';
 export const AppContext = createContext();
 const AppContextProvider = (props) => {

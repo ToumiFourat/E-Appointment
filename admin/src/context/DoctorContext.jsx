@@ -1,7 +1,7 @@
 
 import { createContext } from 'react';
 
-export const AdminContext = createContext();
+export const DoctorContext = createContext();
 const DoctorContextProvider = (props) => {
 
     const value = {
