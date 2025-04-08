@@ -21,8 +21,9 @@ const Login = () => {
         if (data.success) {
           localStorage.setItem("aToken", data.token);
           setAToken(data.token);
+          toast.success(data.message);
         } else {
-          toast.error("data.message");
+          toast.error(data.message);
         }
       } else {
       }
@@ -55,7 +56,7 @@ const Login = () => {
             required
           />
         </div>
-        <button className="bg-primary text-white w-full py-2 rounded-md text-base ">
+        <button className="bg-[#93C5FD] text-white w-full py-2 rounded-md text-base ">
           Se connecter
         </button>
         {state === "Administrateur" ? (
