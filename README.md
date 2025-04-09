@@ -1,4 +1,4 @@
-# Full Stack Doctor Appointment Booking System
+
 
 ## 1. Project Overview
 
